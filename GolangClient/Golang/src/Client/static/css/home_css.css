@@ -1,0 +1,20 @@
+
+.pading_left_30{
+	padding-left: 30px;
+}
+.pading_right_30{
+	padding-right: 30px;
+}
+
+.background_black a,ol,ul,li{
+	background-color: #777;
+}
+.mypanel{
+	margin: 50px 100px;
+}
+.meter{
+	margin: 20px 30px;
+}
+.meter-body{
+	height: 200px;
+}

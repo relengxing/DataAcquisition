@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>首页</title>
+
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/home_css.css"/>
+    <script type="text/javascript" src="/js/home-js.js" ></script>
+</head>
+<body>
+<div class="panel panel-default panel-info mypanel">
+    <div class="panel-heading" align="center">
+        <h1>模拟表记列表</h1>
+    </div>
+    <div class="panel-body">
+        <div id="meter_cell" class="row">
+            <!--一个格子开始-->
+            <div id="add_meter" class="col-xs-3 ">
+                <div class="panel panel-default panel panel-success" >
+                    <div class="panel-heading" align="center">
+                        添加模拟表记
+                        <!--<button type="button" class="close" aria-hidden="true">&times;</button>-->
+                    </div>
+                    <div class="panel-body meter-body" align="center">
+                        <form id="form_create" action="/meter" method="post">
+                            <input type="hidden" name="type" value="create">
+                            <div class="input-group input-group">
+                                <span class="input-group-addon" id="basic-addon1">地理位置</span>
+                                <input type="text" class="form-control" placeholder="地理位置"
+                                       aria-describedby="basic-addon1" name="location">
+                            </div>
+                            <div class="input-group input-group">
+                                <span class="input-group-addon" id="basic-addon2">表记地址</span>
+                                <input type="text" class="form-control" placeholder="表记地址"
+                                       value="00-00-00-00-00-00"
+                                       aria-describedby="basic-addon2" name="address">
+                            </div>
+                            <div class="input-group input-group">
+                                <span class="input-group-addon" id="basic-addon3">目标IPv4</span>
+                                <input type="text" class="form-control" placeholder="目标IPv4"
+                                       value="127.0.0.1:7001"
+                                       aria-describedby="basic-addon3" name="ipv4">
+                            </div>
+                            <div class="input-group input-group">
+                                <span class="input-group-addon" id="basic-addon4">时间周期</span>
+                                <input type="number" class="form-control" value="1"
+                                       max="24" min="1" step="1" name="cycle">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="panel-footer" align="right">
+                        <button id="btn_create" class="btn btn-success">创建</button>
+                    </div>
+                </div>
+            </div>
+            <!--一个格子结束-->
+        </div>
+    </div>
+    <div class="panel-footer">
+        <p>作者:re冷星</p>
+        <p>copyright(c)2016-2017</p>
+    </div>
+</div>
+</body>
+</html>
