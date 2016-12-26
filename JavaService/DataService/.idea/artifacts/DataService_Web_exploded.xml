@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="DataService:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/DataService_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="DataService/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DataService" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="SpringMvc4" />
+          <element id="library" level="application" name="Hibernate 5.2.3-5.2.3" />
+          <element id="library" level="application" name="Spring4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
