@@ -46,10 +46,10 @@ $(document).ready(function(){
             '<input type="hidden" name="id" value="' +
             id+
             '"/>'+
-            '<span class="input-group-addon" id="basic-addon1">地理位置</span>'+
-            '<input type="text" class="form-control" placeholder="地理位置" value="'+
-            location+
-            '" name="location" aria-describedby="basic-addon1">'+
+            // '<span class="input-group-addon" id="basic-addon1">地理位置</span>'+
+            // '<input type="text" class="form-control" placeholder="地理位置" value="'+
+            // location+
+            // '" name="location" aria-describedby="basic-addon1">'+
             '</div>'+
             '<div class="input-group input-group">'+
             '<span class="input-group-addon" id="basic-addon2">表记地址</span>'+

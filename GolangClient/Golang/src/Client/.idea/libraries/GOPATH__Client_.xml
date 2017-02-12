@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;Client&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../Collection/Client/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../Collection/Client/src/Client" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../../Collection/Client/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../Collection/Client/src/Client" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
